@@ -6,9 +6,6 @@ def test_modal_elements(browser):
     assert modal.modal.check_count_elements(5)
 
 
-from selenium import webdriver
-from time import sleep
-
 def test_navigation_modal():
     # Открыть браузер и перейти на страницу https://demoqa.com/modal-dialogs
     browser = webdriver.Chrome()
